@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h4 {
+  color: lightgray;
+  font-size: 13px;
+}
+
+hr {
+  color: lightgray;
+  size: 1px;
+}
+
+.wd-bookmarks-title {
+  padding-left: 16px;
+  padding-top: 12px;
+  font-size: 20px;
+}
+
+.wd-handle {
+  padding-left: 16px;
+  padding-bottom: 12px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.wd-profile-pic {
+  width: 48px;
+  height: auto;
+  border-radius: 50%;
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.wd-profile-name {
+  display: inline-block;
+}
+
+.wd-profile-handle {
+  display: inline-block;
+}
+
+.wd-profile-date {
+  display: inline-block;
+  padding-left: 16px;
+}
+
+.wd-tweet {
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.wd-image-class {
+  width: 504px;
+  height: auto;
+  padding-left: 16px;
+}
+
+.wd-article-title {
+  padding-left: 16px;
+}
+
+.wd-article-blurb {
+  padding-left: 16px;
+}
