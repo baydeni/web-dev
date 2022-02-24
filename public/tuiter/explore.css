@@ -1,39 +1,76 @@
-body {
-  /* background-color: black; */
+.tweet-button {
+  min-width: 100%;
 }
 
-.wd-search {
-  background-color: darkgray;
-  color: white;
-  border-radius: 25px;
+.search-bar {
+  width: 100%;
 }
 
-.wd-foryou {
+.search-bar-input {
+  font-family: Arial, FontAwesome;
+}
+
+.settings {
   color: rgb(29, 161, 242);
-  font-size: 15px;
 }
 
-.wd-not-foryou {
-  color: rgb(110, 118, 125);
-  font-size: 15px;
-  padding: 16px;
+.starship {
+  width: 100%;
 }
 
-.wd-topic-numoftweets {
-  font-size: 13px;
-  color: rgb(110, 118, 125);
-}
-
-.wd-title {
+.starship-text {
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
   color: white;
-  font-size: 16px;
 }
 
-.wd-author {
-  color: white;
-  font-size: 13px;
+.wd-topic {
+  margin: 0;
+  color: dimgray;
 }
 
-ul {
+.topic-title {
+  display: inline;
+  font-weight: bold;
+}
+
+.verified {
   display: inline;
 }
+
+.topic-time {
+  display: inline;
+  margin: 0;
+  color: dimgray;
+}
+
+.topic-text {
+  font-weight: bold;
+  margin: 0;
+}
+
+.topic-logo {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.topic-tweets {
+  margin: 0;
+  color: dimgray;
+}
+
+.follow-logo {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.follow-name {
+  white-space: nowrap;
+  font-weight: bold;
+  z-index: 2;
+}
+
+/* .follow-button {
+  border-radius: 24px;
+} */

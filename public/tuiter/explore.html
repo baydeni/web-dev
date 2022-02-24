@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore</title>
-    <!-- <link href="explore.css" rel="stylesheet" /> -->
+    <link href="explore.css" rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -81,20 +81,9 @@
               <i class="fas fa-ellipsis-h"></i>
               <span class="d-none d-xl-block ms-1"> More</span>
             </a>
-            <!-- <a
-              href="more.html"
-              class="d-flex list-group-item list-group-item-action"
-            >
-              <span class="fa-stack">
-                <i class="fa-solid fa-circle fa-stack-1x"></i>
-                <i class="fa-solid fa-ellipsis fa-inverse fa-stack-1x"></i>
-              </span>
-              <span class="d-none d-xl-block ms-1"> More</span>
-            </a> -->
           </div>
           <button
-            class="btn btn-primary btn-block m-auto rounded-pill"
-            style="min-width: 100%"
+            class="tweet-button btn btn-primary btn-block m-auto rounded-pill"
           >
             Tweet
           </button>
@@ -106,15 +95,14 @@
         <div class="col-10 col-lg-7 col-xl-6">
           <!-- Search Bar -->
           <div class="d-flex justify-content-between align-items-center mb-2">
-            <div class="form px-1 me-2" style="width: 100%">
+            <div class="search-bar form px-1 me-2">
               <input
                 type="text"
-                class="form-control form-input rounded-pill"
-                style="font-family: Arial, FontAwesome"
+                class="search-bar-input form-control form-input rounded-pill"
                 placeholder="&#xf002;   Search Twitter"
               />
             </div>
-            <i class="fas fa-cog fa-2x" style="color: rgb(29, 161, 242)"></i>
+            <i class="settings fas fa-cog fa-2x"></i>
           </div>
 
           <!-- Middle Column Bar -->
@@ -138,18 +126,9 @@
 
           <!-- SpaceX Starship Image -->
           <div class="img-container position-relative">
-            <img style="width: 100%" src="spacex.jpg" />
+            <img class="starship" src="spacex.jpg" />
             <div class="position-absolute bottom-0 start-0 ps-2">
-              <p
-                style="
-                  margin: 0;
-                  font-size: 35px;
-                  font-weight: bold;
-                  color: white;
-                "
-              >
-                SpaceX's Starship
-              </p>
+              <p class="starship-text">SpaceX's Starship</p>
             </div>
           </div>
 
@@ -158,22 +137,18 @@
             <li class="list-group-item">
               <div class="row">
                 <div class="col-10">
-                  <p style="margin: 0; color: dimgray">Web Development</p>
-                  <p style="display: inline; font-weight: bold">ReactJS</p>
-                  <i
-                    style="display: inline"
-                    class="fa-solid fa-check-circle"
-                  ></i>
-                  <p style="display: inline; margin: 0; color: dimgray">• 2h</p>
-                  <p style="font-weight: bold; margin: 0">
+                  <p class="wd-topic">Web Development</p>
+                  <p class="topic-title">ReactJS</p>
+                  <i class="verified fa-solid fa-check-circle"></i>
+                  <p class="topic-time">• 2h</p>
+                  <p class="topic-text">
                     React.js is a component based front end library that makes
                     it very easy to build Single Page Applications or SPAs
                   </p>
                 </div>
                 <div class="col-2">
                   <img
-                    class="img img-responsive full-width"
-                    style="width: 100%; border-radius: 12px"
+                    class="topic-logo img img-responsive full-width"
                     src="react.png"
                     alt="React Logo"
                   />
@@ -183,22 +158,18 @@
             <li class="list-group-item">
               <div class="row">
                 <div class="col-10">
-                  <p style="display: inline; font-weight: bold">JavaScript</p>
-                  <i
-                    style="display: inline"
-                    class="fa-solid fa-check-circle"
-                  ></i>
-                  <p style="display: inline; margin: 0; color: dimgray">• 2h</p>
-                  <p style="font-weight: bold; margin: 0">
+                  <p class="topic-title">JavaScript</p>
+                  <i class="verified fa-solid fa-check-circle"></i>
+                  <p class="topic-time">• 2h</p>
+                  <p class="topic-text">
                     JavaScript is a programming language that can run on
                     browsers as well as desktops
                   </p>
-                  <p style="margin: 0; color: dimgray">123K Tweets</p>
+                  <p class="topic-tweets">123K Tweets</p>
                 </div>
                 <div class="col-2">
                   <img
-                    class="img img-responsive full-width"
-                    style="width: 100%; border-radius: 18px"
+                    class="topic-logo img img-responsive full-width"
                     src="JavaScript-logo.png"
                     alt="JS Logo"
                   />
@@ -208,14 +179,13 @@
             <li class="list-group-item">
               <div class="row">
                 <div class="col-10">
-                  <p style="margin: 0; color: dimgray">Web Development</p>
-                  <p style="font-weight: bold; margin: 0">jQuery</p>
-                  <p style="margin: 0; color: dimgray">123K Tweets</p>
+                  <p class="wd-topic">Web Development</p>
+                  <p class="topic-text">jQuery</p>
+                  <p class="topic-tweets">123K Tweets</p>
                 </div>
                 <div class="col-2">
                   <img
-                    class="img img-responsive full-width"
-                    style="width: 100%; border-radius: 18px"
+                    class="topic-logo img img-responsive full-width"
                     src="jQuery.png"
                     alt="jQuery Logo"
                   />
@@ -225,19 +195,15 @@
             <li class="list-group-item">
               <div class="row">
                 <div class="col-10">
-                  <p style="margin: 0; color: dimgray">Web Development</p>
-                  <p style="display: inline; font-weight: bold">NodeJS</p>
-                  <i
-                    style="display: inline"
-                    class="fa-solid fa-check-circle"
-                  ></i>
-                  <p style="display: inline; margin: 0; color: dimgray">• 2h</p>
-                  <p style="margin: 0; color: dimgray">123K Tweets</p>
+                  <p class="wd-topic">Web Development</p>
+                  <p class="topic-title">NodeJS</p>
+                  <i class="verified fa-solid fa-check-circle"></i>
+                  <p class="topic-time">• 2h</p>
+                  <p class="topic-tweets">123K Tweets</p>
                 </div>
                 <div class="col-2">
                   <img
-                    class="img img-responsive full-width"
-                    style="width: 100%; border-radius: 18px"
+                    class="topic-logo img img-responsive full-width"
                     src="nodejs.png"
                     alt="NodeJS Logo"
                   />
@@ -247,6 +213,7 @@
           </ul>
         </div>
 
+        <!-- Who to Follow -->
         <div class="col-lg-4 d-none d-lg-block">
           <ul class="list-group">
             <li class="list-group-item">Who to Follow</li>
@@ -254,14 +221,13 @@
               <div class="d-flex justify-content-between">
                 <div class="col-2">
                   <img
-                    class="img img-responsive"
-                    style="width: 100%; border-radius: 50%"
+                    class="follow-logo img img-responsive"
                     src="java.svg"
                     alt="Java Logo"
                   />
                 </div>
                 <div class="col-7 ps-0 pe-0 mb-0 position-relative">
-                  <p style="white-space: nowrap; font-weight: bold; z-index: 2">
+                  <p class="follow-name">
                     Java <span><i class="fa-solid fa-check-circle"></i></span>
                   </p>
                   <p class="pt-0 mt-0">@Java</p>
@@ -278,18 +244,17 @@
               <div class="d-flex justify-content-between">
                 <div class="col-2">
                   <img
-                    class="img img-responsive"
-                    style="width: 100%; border-radius: 50%"
+                    class="img img-responsive follow-logo"
                     src="rel-space.png"
                     alt="Relativity Space Logo"
                   />
                 </div>
                 <div class="col-7 ps-0 pe-0 position-relative">
-                  <p style="white-space: nowrap; font-weight: bold; z-index: 2">
+                  <p class="follow-name">
                     Relativity Space
                     <span><i class="fa-solid fa-check-circle"></i></span>
                   </p>
-                  <p style="margin: 0">@relativityspace</p>
+                  <p>@relativityspace</p>
                 </div>
                 <div class="col-3">
                   <button style="border-radius: 24px" class="btn btn-primary">
@@ -303,18 +268,17 @@
               <div class="d-flex justify-content-between">
                 <div class="col-2">
                   <img
-                    class="img img-responsive"
-                    style="width: 100%; border-radius: 50%"
+                    class="follow-logo img img-responsive"
                     src="Virgin-Galactic_Logo.png"
                     alt="Virgin Galactic Logo"
                   />
                 </div>
                 <div class="col-7 ps-0 pe-0 position-relative">
-                  <p style="white-space: nowrap; font-weight: bold; z-index: 2">
+                  <p class="follow-name">
                     Virgin Galactic
                     <span><i class="fa-solid fa-check-circle"></i></span>
                   </p>
-                  <p style="margin: 0">@virgingalactic</p>
+                  <p>@virgingalactic</p>
                 </div>
                 <div class="col-3">
                   <button style="border-radius: 24px" class="btn btn-primary">
@@ -328,17 +292,16 @@
               <div class="d-flex justify-content-between">
                 <div class="col-2">
                   <img
-                    class="img img-responsive"
-                    style="width: 100%; border-radius: 50%"
+                    class="follow-logo img img-responsive"
                     src="nasa.png"
                     alt="Nasa Logo"
                   />
                 </div>
                 <div class="col-7 ps-0 pe-0 position-relative">
-                  <p style="white-space: nowrap; font-weight: bold; z-index: 2">
+                  <p class="follow-name">
                     NASA <span><i class="fa-solid fa-check-circle"></i></span>
                   </p>
-                  <p style="margin: 0">@NASA</p>
+                  <p>@NASA</p>
                 </div>
                 <div class="col-3">
                   <button style="border-radius: 24px" class="btn btn-primary">
@@ -352,17 +315,16 @@
               <div class="d-flex justify-content-between">
                 <div class="col-2">
                   <img
-                    class="img img-responsive"
-                    style="width: 100%; border-radius: 50%"
+                    class="img img-responsive follow-logo"
                     src="tesla.png"
                     alt="Tesla Logo"
                   />
                 </div>
                 <div class="col-7 ps-0 pe-0 position-relative">
-                  <p style="white-space: nowrap; font-weight: bold; z-index: 2">
+                  <p class="follow-name">
                     Tesla <span><i class="fa-solid fa-check-circle"></i></span>
                   </p>
-                  <p style="margin: 0">@Tesla</p>
+                  <p>@Tesla</p>
                 </div>
                 <div class="col-3 pe-2">
                   <button style="border-radius: 24px" class="btn btn-primary">
