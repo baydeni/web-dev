@@ -62,7 +62,7 @@ const ExploreComponent = ({ active = "for-you" }) => {
       </ul>
 
       <div className="img-container position-relative">
-        <img width="100%" src="../../public/tuiter/images/spacex.jpg" alt="" />
+        <img width="100%" src="/tuiter/images/spacex.jpg" alt="" />
         <div className="position-absolute bottom-0 start-0 ps-2 m-0">
           <b style={{ fontSize: "35px", color: "white" }}>SpaceX's Starship</b>
         </div>
