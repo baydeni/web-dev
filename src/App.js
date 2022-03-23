@@ -4,6 +4,7 @@ import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./vendors/bootstrap/css/bootstrap.min.css";
+import "./vendors/bootstrap/cyborg/bootstrap.min.css";
 
 function App() {
   return (
