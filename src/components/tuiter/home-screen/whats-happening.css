@@ -1,0 +1,14 @@
+textarea {
+  width: 100%;
+  background: black;
+  border: none;
+  color: white;
+}
+
+.tweet-no-photo {
+  margin-left: 40px;
+}
+
+.wd-blue {
+  color: #0dcaf0;
+}
